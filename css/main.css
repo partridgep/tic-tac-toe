@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 900;
+    background-color: rgb(156, 154, 154);
+    color: white;
+    border: 2px solid black;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    margin: 15px auto;
+}
+
+h3, button {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#gameboard {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 75px auto;
+
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 200px;
+    height: 200px;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.left {border-left: 5px solid black;}
+.right {border-right: 5px solid black;}
+.bottom {border-bottom: 5px solid black;}
